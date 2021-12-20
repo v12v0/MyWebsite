@@ -1,3 +1,35 @@
-body {
-    background-color: blue;
+#header{
+    background-color: #bbc4cc;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+    color: black;
+}
+#header-title{
+    text-decoration: underline;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #bbc4cc;
+    color: whitesmoke;
+}
+#column1 p{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:25px;
+    color: whitesmoke;
+    padding: 20px;
+
+}
+#column1 h1{
+    text-decoration:underline;
+    color: whitesmoke;
+}
+body{
+    background-color: #fbfbfb;
 }
