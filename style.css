@@ -21,13 +21,47 @@ position: fixed;
   color: white;
   
 }
-div#contact{
+#footer p{
     text-align: center;
+    font-size: large;
     font-family:Helvetica;
-    font-size: x-large;
-    padding: 15px;
     letter-spacing: 0.1em;
 }
+
 body{
     background-color: #e5e4e2;
+}
+
+#face{
+    width: 260px;
+    height: 360px;
+    position: absolute;
+    border-radius: 5%;
+    top: 90px;
+    right:10px;   
+}
+#content a {
+    position: relative;
+    font-size: xxx-large;
+    letter-spacing: 0.1em;
+    right:90px;
+    top:120px;
+    font-family:serif;
+}
+#content :nth-child(3) {
+    color: #1b663e;
+}
+#background h1{
+    letter-spacing:0.1em;
+    position:relative;
+    top:100px;
+    text-align:left;
+    top:250px;
+}
+#background p{
+    font-family:Helvetica;
+    position:relative;
+    top:100px;
+    text-align:left;
+    top:260px;
 }
