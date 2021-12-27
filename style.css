@@ -12,11 +12,13 @@
     padding: 15px;
     letter-spacing: 0.1em;
 } 
-#nav{
-    text-align:right;
+#about-me{
     position:relative;
-    letter-spacing:0.1em;
-    bottom: 24px;
+    right: 10px;
+    text-align:right;
+    font-size:x-large;
+    text-decoration:underline;
+    bottom:36px;
   }
 #footer{
 position: fixed;
@@ -71,4 +73,12 @@ body{
     top:100px;
     text-align:left;
     top:260px;
+}
+#about-header-title{
+    color: whites;
+    font-family:Helvetica;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+    letter-spacing: 0.1em;
 }
