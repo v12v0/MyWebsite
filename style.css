@@ -12,12 +12,18 @@
     padding: 15px;
     letter-spacing: 0.1em;
 } 
+#nav{
+    text-align:right;
+    position:relative;
+    letter-spacing:0.1em;
+    bottom: 24px;
+  }
 #footer{
 position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #bbc4cc;
+  background-color: #555555;
   color: white;
   
 }
@@ -27,11 +33,12 @@ position: fixed;
     font-family:Helvetica;
     letter-spacing: 0.1em;
 }
-
+#contact{
+    text-decoration: underline;
+}
 body{
     background-color: #e5e4e2;
 }
-
 #face{
     width: 260px;
     height: 360px;
@@ -49,7 +56,7 @@ body{
     font-family:serif;
 }
 #content :nth-child(3) {
-    color: #1b663e;
+    color: #b3b3b3;
 }
 #background h1{
     letter-spacing:0.1em;
