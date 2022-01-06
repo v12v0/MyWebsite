@@ -1,84 +1,81 @@
-.header{
-    background-color: #bbc4cc;
-    height: 50px;
-    text-align: center;
-    line-height: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
-#header-title{
-    color: whites;
-    font-family:Helvetica;
-    text-align: left;
-    font-size: x-large;
-    padding: 15px;
-    letter-spacing: 0.1em;
-} 
-#about-me{
-    position:relative;
-    right: 10px;
-    text-align:right;
-    font-size:x-large;
-    text-decoration:underline;
-    bottom:36px;
-  }
-#footer{
-position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #555555;
-  color: white;
-  
-}
-#footer p{
-    text-align: center;
-    font-size: large;
-    font-family:Helvetica;
-    letter-spacing: 0.1em;
-}
-#contact{
-    text-decoration: underline;
-}
+
+/* Section 1 */
+
 body{
-    background-color: #e5e4e2;
+    font-family: 'Roboto',sans-serif;
 }
-#face{
-    width: 260px;
-    height: 360px;
-    position: absolute;
-    border-radius: 5%;
-    top: 90px;
-    right:10px;   
+.name{
+    font-size: large;
 }
-#content a {
-    position: relative;
-    font-size: xxx-large;
-    letter-spacing: 0.1em;
-    right:90px;
-    top:120px;
-    font-family:serif;
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:15px;
+    background-color: #1f2937;
 }
-#content :nth-child(3) {
-    color: #b3b3b3;
+
+.main {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height:400px;
 }
-#background h1{
-    letter-spacing:0.1em;
-    position:relative;
-    top:100px;
-    text-align:left;
-    top:250px;
+
+h1{
+    font-size:48px;
 }
-#background p{
-    font-family:Helvetica;
-    position:relative;
-    top:100px;
-    text-align:left;
-    top:260px;
+.main-info{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
 }
-#about-header-title{
-    color: whites;
-    font-family:Helvetica;
-    text-align: center;
-    font-size: x-large;
-    padding: 15px;
-    letter-spacing: 0.1em;
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.main-content{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:auto;
+    padding:20px;
+    margin:10px;
+    background-color: #1f2937;
+}
+
+img{
+    display:block;
+    height:200px;
+    width:300;
+}
+
+/* Section 2 */
+
+.About-me{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:400px;
+    background-color:#e5e7eb;
+
+}
+
+.about-info{
+    padding:20px;
+    text-align:center;
+    background-color: #d9dbde;
+    width:700px;
+    border: 2px solid #c1c3c7;
+  
 }
