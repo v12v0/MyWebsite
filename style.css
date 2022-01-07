@@ -26,18 +26,13 @@ body{
 .main {
     background-color: #1f2937;
     color: #f9faf8;
-    height:400px;
+    height:500px;
 }
 
 h1{
     font-size:48px;
 }
-.main-info{
-    display: flex;
-    flex-direction:column;
-    align-items:center;
-    gap:15px;
-}
+
 .nav a{
     text-decoration: none;
     color: white;
@@ -45,21 +40,25 @@ h1{
 }
 
 .main-content{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-    width:auto;
-    padding:20px;
-    margin:10px;
+    margin-top:140px;
+    margin-left:500px;
+    text-align:center;
+    width:600px;
+    height:400px;
     background-color: #1f2937;
 }
-
-img{
-    display:block;
-    height:200px;
-    width:300;
+.main img{
+    margin:-220px;
+    margin-left:655px;
+    border: 3px solid #c1c3c7;
+    height:395px;
+    width:345px;
 }
-
+.main-info{
+    display:flex;
+    flex-direction:column;
+    
+}
 /* Section 2 */
 
 .About-me{
@@ -81,6 +80,7 @@ img{
 }
 /* Section 3 */ 
 
+
 .cooking{
     display:flex;
     flex-direction:column;
@@ -92,7 +92,7 @@ img{
     width:800px;
     text-align:center;
     margin-left:500px;
-    margin-top:100px
+    margin-top:50px
 }
 
 .cooking-pics{
