@@ -81,7 +81,6 @@ img{
 }
 /* Section 3 */ 
 
-
 .cooking{
     display:flex;
     flex-direction:column;
@@ -92,19 +91,22 @@ img{
 .cooking-header{
     width:800px;
     text-align:center;
-
+    margin-left:500px;
+    margin-top:100px
 }
 
 .cooking-pics{
     display:flex;
-    justify-content:center;
+    gap:50px;
+    justify-content:space-around;
     align-items:center;
     text-align:center;
-
-
 }
 
-.meals{
-    margin:25px;
-    width:200px;
+
+.meals img{
+    display:block;
+    height:230px;
+    width:250px;
+    border: 6px solid #c1c3c7;
 }
