@@ -110,3 +110,27 @@ h1{
     width:250px;
     border: 6px solid #c1c3c7;
 }
+
+/* Cats */
+
+.cats{
+    display:flex;
+    flex-direction:column;
+    padding:25px;
+    height:400px;
+}
+
+.cat-pics{
+    display:flex;
+    gap:50px;
+    justify-content:space-around;
+    align-items:center;
+    text-align:center;
+}
+
+.spamBean img{
+    display:block;
+    height:230px;
+    width:250px;
+    border: 6px solid #c1c3c7;
+}
