@@ -114,23 +114,31 @@ h1{
 /* Cats */
 
 .cats{
+    background-color:#1f2739;
+    color:white;
+    height:420px;
     display:flex;
     flex-direction:column;
-    padding:25px;
-    height:400px;
 }
 
-.cat-pics{
+.cat-pics img{
+    display:block;
+    height:230px;
+    width:250px;
+    border:6px solid #c1c3c7;
+}
+
+.spamBean{
+    padding:45px;
     display:flex;
     gap:50px;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
     text-align:center;
 }
 
-.spamBean img{
-    display:block;
-    height:230px;
-    width:250px;
-    border: 6px solid #c1c3c7;
+.cat-footer p{
+    text-align:center;
+    width:830px;
+    margin-left:520px;
 }
