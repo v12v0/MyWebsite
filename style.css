@@ -131,7 +131,7 @@ h1{
 .spamBean{
     padding:45px;
     display:flex;
-    gap:50px;
+    gap:250px;
     justify-content:center;
     align-items:center;
     text-align:center;
@@ -141,4 +141,10 @@ h1{
     text-align:center;
     width:830px;
     margin-left:520px;
+}
+
+/* Footer */
+
+.contact-info{
+    text-align:center;
 }
