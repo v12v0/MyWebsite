@@ -4,4 +4,5 @@ document.getElementById("contact").addEventListener("click", function() {
         Linkedin: https://www.linkedin.com/in/v12v0/`
 );});
 
-
+const h2 = document.createElement("h2");
+h2.textContent = "This content added by JavaScript";
